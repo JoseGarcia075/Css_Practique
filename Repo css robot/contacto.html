@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Z4X, el robot</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="item header">
+          <h1 class="logo"><a href="index.html">Z4X, el robot</a></h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li><li><a href="misiones.html">Misiones</a></li><li><a href="audiovisuales.html">Audiovisuales</a></li><li class="active"><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="contain-main">
+          <article class="article contact">
+              <form class="contacto">
+                  <h3>Contacto</h3>
+                  <label for="nombre">Nombre: </label>
+                  <br>
+                  <input class="box" type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3"><br>
+                  <label for="mail">Email: </label><br>
+                  <input class="box" type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required><br>
+                  <label for="pais">País: </label><br>
+                  <select name="pais" class="box" id="pais">
+                      <option value="Argentina">Argentina</option>
+                      <option value="Chile">Chile</option>
+                      <option value="Bolivia">Bolivia</option>
+                      <option value="Perú">Perú</option>
+                      <option value="Uruguay">Uruguay</option>
+                      <option value="España">España</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Venezuela">Venezuela</option>
+                      <option value="Paraguay">Paraguay</option>
+                      <option value="Ecuador">Ecuador</option>
+                  </select><br>
+                  <label for="comentario">Comentario: </label><br>
+                  <textarea class="box alto" name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+                  <br>
+              <input class="sent" type="submit" value="Enviar">
+              </form>
+          </article>
+        </div>
+        <div class="item side">
+          <article class="arte">
+            <h4>History</h4>
+            <p>
+            Cuando Z4X regresó a la Tierra, fue recibido como un héroe. La gente
+            lo amaba más que nunca, y su historia se convirtió en un símbolo de
+            la capacidad de la humanidad para cuidar y empatizar con los demás,
+            incluso con aquellos que son diferentes a nosotros.
+            </p>
+          </article>
+        </div>
+
+    </div>
+    <footer class="item pie">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+
+</body>
+
+</html>

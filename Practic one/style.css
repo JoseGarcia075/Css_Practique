@@ -1,0 +1,147 @@
+* {
+    font-size: 18px; 
+    font-family: monospace;
+    color: rgb(178, 214, 246);
+    text-align: justify;
+}
+body {
+    background-color: rgb(23, 23, 28);
+}
+
+/* 
+          colores 
+    rgb rojo verde azul transparencia
+    ejemplo rgb(255, 255, 255, 1) NEGRO
+
+    hexadecimal rojo verde azul transparencia
+    ejemplo #FFFFFF1a; NEGRO
+
+    cambiar color de fondo
+    background-color: rgb(23, 23, 28); color oscuro
+
+    cambiar tamaño de fuente
+    font-size: 18px; 
+
+    cambiar fuente
+    font-family: monospace; letra de bloc de notas
+
+    cambiar color de fuente 
+    color: rgb(178, 214, 246); azul claro
+ */
+
+
+.type01, .type02 {
+    width: 500px;
+    margin: 1rem auto;
+    margin-bottom: 0;
+    border: 0.5rem solid #5656561a;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(23, 23, 28, 0.639);
+    
+}
+/* 
+        tamaño de caja
+        width: 500px;
+*/
+
+.type02 {
+    color: rgb(150, 203, 249);
+    font-weight: bold;
+}
+#App {
+    background-image: url(./img/telefono.png);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.image {
+    background-image: url(./img/boy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.oneline {
+    height: 2.5rem;
+    overflow-y: scroll;
+    outline: 0.5rem solid rgba(52, 51, 51, 0.519) ;
+}
+
+/*
+links en css y estados
+Link (no visitado): El estado predeterminado que presenta un enlace cuando no está en ningún otro estado. Se puede especificar usando la pseudoclase :link.
+
+Visited: Un enlace cuando ya se ha visitado (está grabado en el historial del navegador); se le aplica otro formato con la pseudoclase :visited.
+
+Hover: Un enlace cuando se le pasa el cursor por encima; se le aplica otro formato con la pseudoclase :hover.
+
+Focus: Un enlace cuando tiene el foco (por ejemplo, se salta a este con la tecla Tab del teclado o se le da el foco mediante programación usando HTMLElement.focus()); se le aplica un formato diferente con la pseudoclase :focus.
+
+Active: Un enlace cuando se activa (por ejemplo, se hace clic encima); se le aplica un formato diferente con la pseudoclase :active.
+*/
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-color: rgba(240, 248, 255, 0.125);
+    text-indent: 1rem;
+    border-radius: 0.2rem;
+    color: rgba(87, 176, 253, 0.873);
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: rgba(119, 255, 119, 0.388);
+}
+
+a:visited {
+    color: rgba(163, 253, 163, 0.557);
+}
+
+a:hover {
+    color: rgba(218, 251, 218, 0.734);
+}
+
+a:focus {
+    color: rgba(251, 251, 251, 0.877);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgba(253, 213, 213, 0.203);
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    list-style-image: url(./img/cara.png);
+    list-style-position: inside;
+    padding: 0;
+}
+table, th, tr, td {
+    border: solid 0.2rem rgba(206, 250, 221, 0.068);
+    padding: 0.4rem;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+th {
+    background-color: rgba(6, 58, 41, 0.85);
+    color: azure;
+}
+
+tr:nth-child(even){
+background-color: rgba(240, 248, 255, 0.046);
+}
+
+tr:hover {
+ font-weight: bold;
+ cursor: pointer;
+}
