@@ -1,0 +1,55 @@
+.imgText {
+  margin: 15px 0;
+  position: relative;
+  left: 30%;
+  width: 45%;
+  border-radius: 3px;
+  -webkit-box-shadow: 10px 10px 37px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 37px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 37px 0px rgba(0, 0, 0, 0.75);
+}
+
+.parrafoHistory {
+  margin: 15px 0px;
+  text-indent: 2rem;
+  text-shadow: -1px 2px 6px rgba(0, 0, 0, 0.56);
+}
+.history {
+  padding: 15px;
+}
+.dialogoSirena {
+  font-style: italic;
+  color: rgb(214, 250, 250);
+  text-shadow: -1px 2px 6px rgba(0, 0, 0, 0.56);
+}
+.dialogoSirena::after {
+  content: "- Sirena.";
+  color: rgb(215, 247, 248);
+}
+.dialogoPirata::after {
+  content: "- Jack.";
+  color: rgb(255, 224, 224);
+}
+.fin {
+  float: right;
+  font-size: 3rem;
+  color: rgb(241, 192, 192);
+  text-shadow: -1px 2px 6px rgba(219, 113, 113, 0.56);
+  letter-spacing: 30px;
+}
+.dialogoPirata {
+  font-style: italic;
+  color: rgb(247, 220, 220);
+  text-shadow: -1px 2px 6px rgba(0, 0, 0, 0.56);
+}
+.titulo {
+  font-weight: 900;
+  font-size: 1.2rem;
+  
+}
+.conversacion {
+  list-style: none;
+}
+ .conversacion li {
+  padding-top: 15px;
+ }
